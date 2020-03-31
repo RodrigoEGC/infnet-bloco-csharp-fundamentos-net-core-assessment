@@ -153,6 +153,7 @@ namespace Infraestrutura.List
                     Console.WriteLine($"Dados descartados! {pressioneQualquerTecla}");
                 else
                     Console.WriteLine($"Opção inválida! {pressioneQualquerTecla}");
+                Console.ReadKey();
             }
 
         }
@@ -168,6 +169,8 @@ namespace Infraestrutura.List
                 Console.Write($"Parabéns. Você está fazendo aniversário hoje! {pressioneQualquerTecla} ");
             else
                 Console.Write($"Você já fez aniversário neste ano. {pressioneQualquerTecla}");
+            Console.ReadKey();
+
         }
 
     }
