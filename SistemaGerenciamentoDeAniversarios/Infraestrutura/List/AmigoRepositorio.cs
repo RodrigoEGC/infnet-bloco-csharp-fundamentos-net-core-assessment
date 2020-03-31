@@ -111,6 +111,7 @@ namespace Infraestrutura.List
                     default:
                         break;
                 }
+                Console.ReadKey();
 
             }
             else
