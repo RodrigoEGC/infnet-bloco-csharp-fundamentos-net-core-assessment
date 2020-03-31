@@ -50,6 +50,8 @@ namespace Infraestrutura.List
 
         public void Delete(Amigo amigo)
         {
+            Console.WriteLine($"Amigo Deletado com sucesso! {pressioneQualquerTecla}");
+            Console.ReadKey();
             amigoLista.Remove(amigo);
             File.WriteAllLines(DIRETORIO_ARQUIVO, amigoLista.Select(amigo => amigo.ToString()));
         }
